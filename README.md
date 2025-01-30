@@ -1,6 +1,6 @@
 ## Overview
 
-This batch script, authored by Jeff Steveanus, organizes files in the current directory into subfolders based on their type, year, and month of creation. It is designed to help users manage and categorize their files efficiently.
+This batch script organizes files in the current directory into subfolders based on their type, year, and month of creation. It is designed to help users manage and categorize their files efficiently.
 
 ## Author
 
@@ -10,7 +10,7 @@ This batch script, authored by Jeff Steveanus, organizes files in the current di
 ## Details
 
 - **Date:** 2025-01-30
-- **Version:** 1.0
+- **Version:** 1.1
 - **Tested on:** Windows 10
 
 ## Description
