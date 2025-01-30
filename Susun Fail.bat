@@ -1,13 +1,12 @@
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::                                                             ::
 ::                   Author: Jeff Steveanus                    ::
-::                  WhatsApp: +6017-8914106                    ::
 :: Facebook/Instagram/Threads/LinkedIn/TikTok: @jeffsteveanus  ::
 ::                                                             ::
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::                                                             ::
 :: Tarikh: 2025-01-30                                          ::
-:: Versi: 1.0                                                  ::
+:: Versi: 1.1                                                  ::
 ::                                                             ::
 :: Penerangan: Batch file ini akan menyusun fail dalam         ::
 ::             folder semasa ke dalam subfolder berdasarkan    ::
@@ -27,7 +26,9 @@ set "Compressed=zip rar 7z gz tar"
 set "Videos=mp4 avi mkv mov wmv flv"
 set "Musics=mp3 wav flac ogg aac"
 set "Pictures=jpg jpeg png gif bmp tiff avif webp heif"
-set "Documents=pdf doc docx xls xlsx ppt pptx txt"
+set "Documents=pdf doc docx xls xlsx ppt pptx txt csv"
+set "Programs=exe msi"
+set "images=img iso bin"
 
 :: Tentukan folder sumber (folfer semasa)
 set "SOURCE_DIR=%CD%"
@@ -68,5 +69,6 @@ for %%F in (*.*) do (
     )
 )
 
+echo.
 echo Fail berjaya disusun mengikut jenis, tahun dan bulan. Tekan apa-apa butang untuk keluar.
 pause>nul
