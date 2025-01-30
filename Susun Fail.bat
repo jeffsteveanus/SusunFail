@@ -25,7 +25,7 @@ setlocal enabledelayedexpansion
 set "Compressed=zip rar 7z gz tar"
 set "Videos=mp4 avi mkv mov wmv flv"
 set "Musics=mp3 wav flac ogg aac"
-set "Pictures=jpg jpeg png gif bmp tiff avif webp heif"
+set "Pictures=jpg jpeg png gif bmp tiff avif webp heic"
 set "Documents=pdf doc docx xls xlsx ppt pptx txt csv"
 set "Programs=exe msi"
 set "images=img iso bin"
